@@ -16,5 +16,5 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
       
         script: |
-          mkdir test
-          cd test
+          mkdir test2
+          cd test2
