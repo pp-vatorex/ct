@@ -7,7 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      name: deploy python script
+    - name: deploy python script
       uses: appleboy/ssh-action@v.0.1.2
       with:
         host: ${{secrets.SSH_HOST}}
