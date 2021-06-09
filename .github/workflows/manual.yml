@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: deploy python script
-      script: |
-        mkdir test3
-        cd test3
+      run:
+        script: |
+          mkdir test3
+          cd test3
